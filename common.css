@@ -1,0 +1,9 @@
+#w202312260431cfc6420d4 ._gallery_wrap {
+  height: auto !important;
+  width: 100%;
+  aspect-ratio: 8/3;
+}
+#w202312260431cfc6420d4 .owl-stage-outer {
+  border-radius: 16px;
+  overflow: hidden;
+}
