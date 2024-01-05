@@ -11,3 +11,72 @@
 .doz_sys .modal-content {
   border-radius: 16px;
 }
+
+#s20231215515826501121f .goods_payment .opt_block,
+#s20231215515826501121f .order_quantity_area,
+#doz_body .modal-content .goods_payment .opt_block,
+#doz_body .modal-content .order_quantity_area {
+  border-top: 1px solid #ebebeb !important;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#s20231215515826501121f .shop-content .goods_payment .opt_block.bottom,
+#doz_body .modal-content .shop-content .goods_payment .opt_block.bottom {
+  display: table;
+}
+#s20231215515826501121f .goods_payment .opt_block,
+#doz_body .modal-content .goods_payment .opt_block {
+  padding: 0;
+  padding-top: 24px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+#s20231215515826501121f .opt_product_area .area_tit:before,
+#s20231215515826501121f .order_quantity_area .area_tit:before,
+#doz_body .modal-content .opt_product_area .area_tit:before,
+#doz_body .modal-content .order_quantity_area .area_tit:before {
+  display: none;
+}
+#s20231215515826501121f .area_tit,
+#doz_body .modal-content .area_tit {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+#s20231215515826501121f .pay_detail .real_price,
+#doz_body .modal-content .pay_detail .real_price {
+  font-weight: 600;
+}
+#s20231215515826501121f .shop-content .goods_form .view_tit,
+#doz_body .modal-content .shop-content .goods_form .view_tit {
+  font-weight: 600;
+  word-break: keep-all;
+}
+#s20231215515826501121f .option_btn_tools input.form-control,
+#doz_body .modal-content .option_btn_tools input.form-control {
+  border: none !important;
+  color: #a5a5a5 !important;
+  padding: 0 4px !important;
+  height: 100% !important;
+  width: 32px;
+}
+#s20231215515826501121f .option_btn_tools,
+#doz_body .modal-content .option_btn_tools {
+  border-radius: 48px;
+  padding: 0 12px;
+  border: 1px solid #ebebeb;
+  background: none;
+}
+#s20231215515826501121f .area_price,
+#doz_body .modal-content .area_price {
+  position: static !important;
+  transform: none;
+  margin-left: 16px;
+}
+#s20231215515826501121f .option_btn_wrap,
+#doz_body .modal-content .option_btn_wrap {
+  display: flex;
+  align-items: center;
+}
