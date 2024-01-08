@@ -187,3 +187,93 @@
   width: 100%;
   aspect-ratio: 32/5;
 }
+
+#doz_body .shop-item .item-detail .item-icon > span.im-icon-wrap {
+  display: block !important;
+}
+.shop-item .item-detail .item-icon > span,
+.shop-item .item-detail .item-icon > span a {
+  width: 100%;
+  display: block;
+}
+.shop-item .item-thumbs,
+.shop-item .shop-item-thumb {
+  background-color: #fff;
+  display: block !important;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 24px 0px rgba(230, 223, 199, 0.24);
+}
+.shop-item .item-detail {
+  background-color: #fff;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0px 12px 24px 0px rgba(230, 223, 199, 0.24);
+  padding: 40px 0 0;
+  line-height: 1em;
+  position: relative;
+  overflow: hidden;
+}
+.shop-item .item-detail .item-pay {
+  padding: 0 24px;
+  margin-bottom: 32px;
+}
+.shop-item .item-detail .ns-icon {
+  display: none !important;
+}
+.shop-item .item-detail .item-icon.unit-list {
+  margin-top: 0 !important;
+  justify-content: center;
+  width: 100%;
+}
+.shop-item .item-detail .im-ico-cart {
+  width: 100%;
+  display: block;
+}
+.shop-item .item-detail .im-ico-cart:before {
+  content: "담기";
+  line-height: 1.8em;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3c3c3c;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  display: block !important;
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  padding: 8px;
+  background-color: #fdfaf7;
+}
+.shop-item .location-info {
+  color: #a5a5a5;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 40px;
+}
+.shop-item .item-pay h2 {
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+.shop-item .pay {
+  font-weight: 600 !important;
+}
+.shop-item .sale_pay {
+  color: #ebebeb;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+.shop-item .ns-icon {
+  text-align: left;
+  padding: 16px;
+  margin: 0;
+}
